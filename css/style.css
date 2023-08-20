@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+
+header {
+  background-image: url(../assets/img/fotoheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.377); }
+    header nav ul {
+      font-size: 20px; }
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .menu li {
+    position: relative;
+    display: inline-block; }
+  .menu a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fffcfc; }
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #302828c9;
+  padding: 10px; }
+
+.menu li:hover .submenu {
+  display: block; }
+
+.titulo {
+  display: flex;
+  justify-content: center; }
+
+.uplogo {
+  margin: 10px;
+  display: flex; }
+  .uplogo ul {
+    display: flex;
+    list-style: none;
+    color: #fffcfc;
+    border-right: 1px solid #ffabab; }
+    .uplogo ul li {
+      margin: 5px; }
+      .uplogo ul li a img {
+        width: 25px; }
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+  gap: 3px; }
+  .search-container button {
+    background-color: #bd6565;
+    border: 1px solid #bd6565; }
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #bd6565;
+  border-radius: 4px; }
+
+.search-button {
+  width: 10px;
+  height: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-left: -1px; }
+
+.uplogo1 {
+  display: flex;
+  justify-content: space-between; }
+
+.carrito {
+  width: 25px;
+  background-color: #bd6565; }
+
+footer {
+  background-color: #bd6565; }
+
+.tipografia {
+  font-size: 20px; }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0px; }
+  .contenedor .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #996666;
+    width: 300px;
+    height: 270px;
+    margin: 10%; }
+    .contenedor .card img {
+      width: 200px;
+      height: 200px;
+      background-color: #e26464; }
+
+.texto {
+  font-family: 'Rubik', sans-serif;
+  margin-top: 10px;
+  color: #fffcfc; }
