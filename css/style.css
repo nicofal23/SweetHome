@@ -56,7 +56,8 @@ header {
     color: #fffcfc;
     border-right: 1px solid #ffabab; }
     .uplogo ul li {
-      margin: 5px; }
+      margin: 5px;
+      color: #bd6565; }
       .uplogo ul li a img {
         width: 25px; }
 
